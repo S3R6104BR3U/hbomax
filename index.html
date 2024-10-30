@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBO Max</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/animation-bg.css">
 </head>
 <body>
     <div class="bar">
@@ -12,9 +14,90 @@
             <img class="bar__logo-hbo" src="assets/images/hbo-logo.svg" alt="logo da HBO Max">
         </a>
         <nav class="bar__menu">
-            <a class="bar__link bar__login" href="#">ENTRAR</a>
-            <a class="bar__link bar__signin" href="signIn.html">ASSINE AGORA</a>
+            <a class="bar__link bar__login" href="signIn.html">ENTRAR</a>
+            <a class="bar__link bar__signin" href="#">ASSINE AGORA</a>
         </nav>
     </div>
+    <section class="signature">
+        <!-- <div class="animation-bg"></div> -->
+        <div class="signature__channels">
+            <div class="signature__logo-channel"><img class="signature__channel" src="assets/images/hbo.png" alt="Logo da HBO"></div>
+            <div class="signature__logo-channel"><img class="signature__channel" src="assets/images/dc.png" alt="Logo da DC Comics"></div>
+            <div class="signature__logo-channel"><img class="signature__channel" src="assets/images/wb.png" alt="Logo da Wanner Bros"></div>
+            <div class="signature__logo-channel"><img class="signature__channel" src="assets/images/cartoon-network_neutral.png" alt="Logo do cartoon-network"></div>
+            <div class="signature__logo-channel"><img class="signature__channel" src="assets/images/max_originals.png" alt="Logo do Max Originals"></div>
+        </div>
+        <div class="signature__titles">
+            <p class="signature__title-one">Curta as melhores histórias</p>
+            <p class="signature__title-two">Para todo mundo</p>
+        </div>
+        <div class="signature__line-horizontal"></div>
+        <div class="signature__texts">
+            <p class="signature__text-one">Assinatura a partir de</p>
+            <p class="signature__text-two"><span class="price">R$14,15</span> /mês</p>
+        </div>
+        <button class="signature__btn">Assine agora</button>
+        <p class="signature__text-tree">*aplicavel ao plano anual com o<br>pagamento antecipado</p>
+
+    </section>
+    <section class="plan">
+        <p class="plan__title">
+            Conheça nossos planos e economize na assinatura trimestral ou anual com o<br>
+            pagamento antecipado.
+        </p>
+        <div class="plan__cards">
+            <div class="plan__card plan__card-1">
+                <div class="plan__header">
+                    <div class="plan__mobile">Mobile</div>
+                    <div class="plan__price"><span>R$ 19,90</span> / mês</div>
+                </div>
+                <p>Aproveite em smartphones e tablets, onde quiser.</p>
+                <p>Assita em 1 tela por vez.</p>
+                <p>Tenha conteúdo em resolução adaptada para cada dispositivo.</p>
+                <p>Baixe suas séries e filmes favoritos, assita onde e quando quiser.</p>
+                <button>Escolher o plano mobile</button>
+            </div>
+            <div class="plan__card plan__card-2">
+                <div class="plan__header">
+                    <div class="plan__multitelas">Multitelas</div>
+                    <div class="plan__price"><span>R$ 27,90</span> / mês</div>
+                </div>
+                <p>Aproveite em todos os seus dispositivos.</p>
+                <p>Chromecast e Airplay disponíveis.</p>
+                <p>Assista em até 3 telas ao mesmo tempo.</p>
+                <p>Tenha conteúdo em alta definição, com qualidade 4k.</p>
+                <p>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</p>
+                <p>Crie até 5 perfis diferentes.</p>
+                <button>Escolher o plano multitelas</button>
+            </div>
+        </div>
+    </section> 
+    <section class="galery">
+        <p class="galery__title">Descubra novos universos</p>
+        <div class="galery__cards">
+            <div id="img-1" class="galery__card"></div>
+            <div id="img-2" class="galery__card"></div>
+            <div id="img-3" class="galery__card"></div>
+            <div id="img-4" class="galery__card"></div>
+            <div id="img-5" class="galery__card"></div>
+            <div id="img-6" class="galery__card"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="footer__menu">
+            <li class="footer__item"><a href="">Agora na HBO Max</li></a> 
+            <li class="footer__item"><a href="">Em breve</li></a>
+            <li class="footer__item"><a href="">Filmes em destaque</a></li>
+            <li class="footer__item"><a href="">Séries</a></li>
+            <li class="footer__item"><a href="">Ajuda</a></li>
+        </ul>
+        <p>©️ 2024 Wanner Media Direct. Latim American LLC Todos os direitos reservados. HBO Max é usado sob licença.</p>
+        <div class="footer__social">
+            <a href=""><img class="footer__icon" src="assets/images/fb_0.png" alt="Icone do Facebook"></a>
+            <a href=""><img class="footer__icon" src="assets/images/twitter_0.png" alt="Icone do twitter"></a>
+            <a href=""><img class="footer__icon" src="assets/images/instagram_0.png" alt="Icone do Instagram"></a>
+            <a href=""><img class="footer__icon" src="assets/images/youtube_0.png" alt="Icone do YouTube"></a>
+        </div>
+    </footer>
 </body>
 </html>
